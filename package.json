@@ -10,7 +10,8 @@
     "start": "node index.js",
     "format": "biome format --write .",
     "precommit": "biome check --write .",
-    "lint": "biome lint --write ."
+    "lint": "biome lint --write .",
+    "install-expo-cli": "npm install expo-cli@^5.4.3 --save-dev"
   },
   "author": "InterstellarNetwork",
   "license": "GPL-3.0-or-later",
@@ -23,7 +24,8 @@
     "express": "^4.19.2",
     "express-basic-auth": "^1.2.1",
     "mime": "^4.0.4",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "expo-cli": "^5.4.3"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3"
